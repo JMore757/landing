@@ -1,0 +1,107 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 50px;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+.how-it-works {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.btn-medium {
+  color: white;
+  background-color: rgb(60, 240, 141);
+  border-radius: 30px;
+  padding: 15px 30px;
+  transition: 0.2s ease;
+}
+
+.btn-medium:hover {
+  background-color: rgb(38, 175, 38);
+}
+
+.footer a {
+  font-size: 25px;
+  color: white;
+}
